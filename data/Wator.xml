@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+	<simulation>
+		<name>Wator</name>
+		<title>wator_1</title>
+		<author>Team13</author>
+		<extraParameters>reproductionFish reproductionShark</extraParameters>
+		<description>This xml file is made for Wator simulation. It contains only one fish and one shark in the initial setting, so the user can see clearly how the only fish and the only shark move, reproduce and interact clearly. This xml is helpful in debugging as behaviours are clearly shown.</description>
+	</simulation>
+	<params>
+		<reproductionFish>5.0</reproductionFish>
+		<reproductionShark>7.0</reproductionShark>
+	</params>
+	<dimConfig>
+		<grid>
+			<row>5</row>
+			<col>5</col>
+		</grid>
+		<cellState dataType = "list">
+			<state stateNumber = "0" stateName = "empty">11 19 10 22 1 2 3 4 6 5 9 17 7 18 21 23 24 12 13 14 15 16</state>
+			<state stateNumber = "1" stateName = "fish">8</state>
+			<state stateNumber = "2" stateName = "shark">20</state>
+		</cellState>
+	</dimConfig>
+</cellSociety>

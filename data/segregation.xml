@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+	<simulation>
+		<name>Segregation</name>
+		<title>segregation_1</title>
+		<author>Team13</author>
+		<extraParameters>threshold</extraParameters>
+		<description>This xml file is made for Segregation simulation. The grid is of small size and this xml file is used for testing and debugging.</description>
+	</simulation>
+	<params>
+		<threshold>0.3</threshold>
+	</params>
+	<dimConfig>
+		<grid>
+			<row>5</row>
+			<col>5</col>
+		</grid>
+		<cellState dataType = "list">
+			<state stateNumber = "0" stateName = "empty">12 13 14 15 16</state>
+			<state stateNumber = "1" stateName = "X">0 1 2 3 4 5 6 7 8 9 10 22</state>
+			<state stateNumber = "2" stateName = "O">11 17 18 19 20 21 23 24</state>
+		</cellState>
+	</dimConfig>
+</cellSociety>

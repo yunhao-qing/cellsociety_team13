@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+    <simulation>
+        <name>SpreadingOfFire</name>
+        <title>spreadingOfFire_1</title>
+        <author>Team13</author>
+        <extraParameters>probCatch probGrowth burningCount</extraParameters>
+        <description>This xml file is for fire simulation testing. The xml is interesting as the probGrowth parameter is set to be 0 in this xml file, which means that tree will not grow from empty field. This helps us in testing as we can focus on other changes, e.g. the change from normal tree to burning tree.</description>
+    </simulation>
+    <params>
+        <probCatch>0.4</probCatch>
+        <probGrowth>0.0</probGrowth>
+        <burningCount>3.0</burningCount>
+    </params>
+    <dimConfig>
+        <grid>
+            <row>8</row>
+            <col>8</col>
+        </grid>
+        <cellState dataType = "list">
+            <state stateNumber = "0" stateName = "empty">18 20 21 23 24 26 27 30 33 36 39 42 45 48 51 54 57 60 63</state>
+            <state stateNumber = "1" stateName = "normalTree">0 2 3 6 8 9 11 12 15 17 1 4 7 10 13 16 19 22 25 28 31 34 37 38 40 41 43 46 49 52 53 55 58 61 62</state>
+            <state stateNumber = "2" stateName = "burningTree">5 14 29 32 35 44 47 50 56 59</state>
+        </cellState>
+    </dimConfig>
+</cellSociety>

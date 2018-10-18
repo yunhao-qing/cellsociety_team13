@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+	<simulation>
+		<name>GameOfLife</name>
+		<title>gameOfLife_1</title>
+		<author>Team13</author>
+		<extraParameters>underThreshold overThreshold</extraParameters>
+		<description>This xml file is made for game of life simulation. This xml file is interesting as the states are in order according to numeral values of the stateNumber(like the other xml files). The successful running of this xml file show flexibility in our design of reading xml.</description>
+	</simulation>
+	<params>
+		<underThreshold>2</underThreshold>
+		<overThreshold>3</overThreshold>
+	</params>
+	<dimConfig>
+		<grid>
+			<row>5</row>
+			<col>5</col>
+		</grid>
+		<cellState dataType = "list">
+			<state stateNumber = "1" stateName = "alive">0 1 2 3 4 5 6 7 8 9 10 12 13 14 22</state>
+			<state stateNumber = "0" stateName = "dead">11 15 16 17 18 19 20 21 23 24</state>
+		</cellState>
+	</dimConfig>
+</cellSociety>

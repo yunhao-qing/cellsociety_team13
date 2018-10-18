@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+	<simulation>
+		<name>SpreadingOfFire</name>
+		<title>spreadingOfFire_1</title>
+		<author>Team13</author>
+		<extraParameters>probCatch probGrowth burningCount</extraParameters>
+		<description>This xml file is for fire simulation testing. The grid is of small size and we can see the changes of individual cell clearly in this xml file.</description>
+	</simulation>
+	<params>
+		<probCatch>0.3</probCatch>
+		<probGrowth>0.1</probGrowth>
+		<burningCount>3.0</burningCount>
+	</params>
+	<dimConfig>
+		<grid>
+			<row>5</row>
+			<col>5</col>
+		</grid>
+		<cellState dataType = "list">
+		    <state stateNumber = "0" stateName = "empty">12 13 14 15 16</state>
+			<state stateNumber = "1" stateName = "normalTree">0 1 2 3 4 5 6 7 8 9 10 22</state>
+			<state stateNumber = "2" stateName = "burningTree">11 17 18 19 20 21 23 24</state>
+		</cellState>
+	</dimConfig>
+</cellSociety>

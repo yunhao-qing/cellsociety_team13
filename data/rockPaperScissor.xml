@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+    <simulation>
+        <name>RockPaperScissor</name>
+        <title>rockPaperScissor_1</title>
+        <author>Team13</author>
+        <extraParameters>opacityIncrement</extraParameters>
+        <description>This xml file implements the Rock, Paper, Scissor simulation. This file is unique because only Rock and Paper exist, so one will die out quickly.</description>
+    </simulation>
+    <params>
+        <opacityIncrement>0.5</opacityIncrement>
+    </params>
+    <dimConfig>
+        <grid>
+            <row>5</row>
+            <col>5</col>
+        </grid>
+        <cellState dataType = "list">
+            <state stateNumber = "0" stateName = "empty">0 1 2 3 4 5 9 10 14 15 19 20 21 22 23 24</state>
+            <state stateNumber = "1" stateName = "rock">6 7 8 11 13 16 17 18</state>
+            <state stateNumber = "2" stateName = "paper">12</state>
+        </cellState>
+    </dimConfig>
+</cellSociety>

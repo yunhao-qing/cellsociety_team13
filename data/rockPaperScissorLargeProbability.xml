@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+    <simulation>
+        <name>RockPaperScissor</name>
+        <title>rockPaperScissor_1</title>
+        <author>Team13</author>
+        <extraParameters>opacityIncrement</extraParameters>
+        <description>This xml file implements the Rock, Paper, Scissor simulation. It randomly initializes the state of each cell on the grid.</description>
+    </simulation>
+    <params>
+        <opacityIncrement>0.3</opacityIncrement>
+    </params>
+    <dimConfig>
+        <grid>
+            <row>500</row>
+            <col>500</col>
+        </grid>
+        <cellState dataType = "random">
+            <state stateNumber = "0" stateName = "empty"></state>
+            <state stateNumber = "1" stateName = "rock"></state>
+            <state stateNumber = "2" stateName = "paper"></state>
+            <state stateNumber = "3" stateName = "scissor"></state>
+        </cellState>
+    </dimConfig>
+</cellSociety>

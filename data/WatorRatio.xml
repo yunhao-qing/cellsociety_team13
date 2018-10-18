@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+	<simulation>
+		<name>Wator</name>
+		<title>wator_1</title>
+		<author>Team13</author>
+		<extraParameters>reproductionFish reproductionShark</extraParameters>
+		<description>This xml file is made for Wator simulation. It contains many fish and many shark in the initial setting. The grid is very big, hence we can use this simulation to check whether our code work for big grid. Besides, the dataType is 'ratio' in this simulation, i.e. this tests whether our read by ratio works or not.</description>
+	</simulation>
+	<params>
+		<reproductionFish>5.0</reproductionFish>
+		<reproductionShark>7.0</reproductionShark>
+	</params>
+	<dimConfig>
+		<grid>
+			<row>100</row>
+			<col>100</col>
+		</grid>
+		<cellState dataType = "ratio">
+			<state stateNumber = "0" stateName = "empty">0.1</state>
+			<state stateNumber = "1" stateName = "fish">0.85</state>
+			<state stateNumber = "2" stateName = "shark">0.05</state>
+		</cellState>
+	</dimConfig>
+</cellSociety>

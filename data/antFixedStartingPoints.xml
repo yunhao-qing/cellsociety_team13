@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cellSociety>
+<simulation>
+    <name>Ant</name>
+    <title>Any_1</title>
+    <author>Team13</author>
+    <extraParameters>antRatio maxPheromone evaporation diffusion K N</extraParameters>
+    <description>This xml file is for ants forage testing.</description>
+</simulation>
+<params>
+    <antRatio>0.3</antRatio>
+    <maxPheromone>1000.0</maxPheromone>
+    <evaporation>0.001</evaporation>
+    <diffusion>0.001</diffusion>>
+    <K>0.001</K>>
+    <N>1.0</N>>
+</params>
+<dimConfig>
+    <grid>
+        <row>5</row>
+        <col>5</col>
+    </grid>
+    <cellState dataType = "list">
+        <state stateNumber = "0" stateName = "empty">12 13 14 15 16</state>
+        <state stateNumber = "1" stateName = "nest">0 1 2 3 4 5 6 7 8 9 10 22</state>
+        <state stateNumber = "2" stateName = "food">11 17 18 19 20 21 23 24</state>
+    </cellState>
+</dimConfig>
+</cellSociety>
+

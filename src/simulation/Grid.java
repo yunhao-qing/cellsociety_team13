@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 
 /**
- * @author Haotian Wang, Julia Saveliff
+ * @author Haotian Wang, Julia Saveliff, Yunhao Qing
  * A class for the underlying grid in the various simulations. Most notably int contains references to the actual cells organized in a 2D array. An important function of this class is to retrieve the direct members or all members of a cell located at a specific index.
  */
 
